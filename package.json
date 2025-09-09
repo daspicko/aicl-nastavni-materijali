@@ -2,17 +2,9 @@
   "name": "ai-centar-lipik",
   "version": "1.0.0",
   "description": "Repository used for the projects and learning materials related to AI and Python programming at AI Center Lipik.",
-  "main": "/scripts/build-static-site.js",
-  "type": "module",
   "scripts": {
-    "build": "npm install && docker build -t jnc-process . && docker run --rm -v .:/app jnc-process node /app/scripts/build-static-site.js",
-    "validate": "npm install && docker build -t jnc-process . && docker run --rm jnc-process node /app/scripts/validate.js",
-    "local:build": "npm install && node scripts/build-static-site.js && sudo cp -r dist/* /var/www/html/ai-centar-lipik",
-    "local:validate": "npm install && node scripts/validate.js",
-    "local:dockerBuild": "docker build -t daspicko/jupyter-notebook-converter -f DockerfileBaseImage ."
-  },
-  "dependencies": {
-    "node-fetch": "^3.3.2",
-    "node-html-parser": "^7.0.1"
+    "start": "jupyter book start",
+    "build": "jupyter book build --execute --html",
+    "local:deploy": "npm run build && sudo rm -rf /var/www/html/ai-centar-lipik/* && sudo cp -r _build/html/* /var/www/html/ai-centar-lipik"
   }
 }

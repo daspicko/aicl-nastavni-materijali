@@ -1,0 +1,16 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 3a1ee051-6ddb-4e54-8834-bb53b9c9ea8e
+  title: AI Centar Lipik
+  description: Nastavni materijali za AI Centar Lipik
+  keywords: [python, ai, machine learning, data science, jupyter, jupyter book]
+  # authors: []
+  github: https://github.com/daspicko/ai-centar-lipik
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+site:
+  template: book-theme
+  title: AI Centar Lipik
+  options:
+    favicon: https://www.lipik.ai/favicon.ico
+    logo: _static/images/ai-center-logo.png

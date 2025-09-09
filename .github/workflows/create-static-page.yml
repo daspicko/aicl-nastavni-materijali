@@ -1,4 +1,4 @@
-name: Create Static Pages from Notebooks
+name: Create Static Pages
 on:
   workflow_dispatch:
   push:
@@ -27,7 +27,7 @@ jobs:
         with:
           node-version: 22
 
-      - name: Build static pages from notebooks
+      - name: Build static pages from content
         run: npm run build
 
       - name: Setup Pages
