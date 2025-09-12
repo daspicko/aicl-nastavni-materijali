@@ -208,3 +208,5 @@ __marimo__/
 
 node_modules
 .idea
+# MyST build outputs
+_build

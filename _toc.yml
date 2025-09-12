@@ -1,0 +1,35 @@
+format: jb-book
+root: content/index.md
+options:
+  numbered: true
+default:
+  titleonly: false
+  download: false
+
+chapters:
+  - file: content/01_python/index.md
+  - file: content/02_podatkovna_znanost/index.md
+  - file: content/03_strojno_ucenje/index.md
+    sections:
+      - file: content/03_strojno_ucenje/031_matematika/index.md
+        sections:
+          - file: content/03_strojno_ucenje/031_matematika/0311_Vjerojatnost.ipynb
+          - file: content/03_strojno_ucenje/031_matematika/0312_Jednostavni_i_slozeni_dogadaji.ipynb
+          - file: content/03_strojno_ucenje/031_matematika/0313_Distribucije.ipynb
+          - file: content/03_strojno_ucenje/031_matematika/0314_Ponderiranje.ipynb
+          - file: content/03_strojno_ucenje/031_matematika/0315_Kockica.ipynb
+          - file: content/03_strojno_ucenje/031_matematika/0316_Suma_kvadrata.ipynb
+          - file: content/03_strojno_ucenje/031_matematika/0317_Koncert.ipynb
+          - file: content/03_strojno_ucenje/031_matematika/0318_Nelinearnost.ipynb
+          - file: content/03_strojno_ucenje/031_matematika/0319_vjezba_graf_jednadzbe_4tog_stupnja.ipynb
+      - file: content/03_strojno_ucenje/032_klasifikacija/index.md
+      - file: content/03_strojno_ucenje/033_regresija/index.md
+      - file: content/03_strojno_ucenje/034_evaluacija/index.md
+      - file: content/03_strojno_ucenje/035_vjezbe/index.md
+        sections:
+          - file: content/03_strojno_ucenje/035_vjezbe/01_primjer.ipynb
+          - file: content/03_strojno_ucenje/035_vjezbe/01a_vjezba.ipynb
+          - file: content/03_strojno_ucenje/035_vjezbe/01b_vjezba.ipynb
+          - file: content/03_strojno_ucenje/035_vjezbe/01c_vjezba.ipynb
+          - file: content/03_strojno_ucenje/035_vjezbe/01d_vjezba.ipynb
+          - file: content/03_strojno_ucenje/035_vjezbe/01e_vjezba.ipynb

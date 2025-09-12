@@ -10,12 +10,14 @@ on:
       - main
     paths:
       - datasets/**
-      - notebooks/**
+      - content/**
       - requirements.txt
 
 jobs:
   validate-notebooks:
     runs-on: ubuntu-latest
+    env:
+      BASE_URL: /ai-centar-lipik
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
@@ -24,5 +26,10 @@ jobs:
         with:
           node-version: 22
 
-      - name: Validate notebooks
-        run: npm run validate
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - run: pip install -r requirements.txt
+
+      - name: Validate content
+        run: npm run build
