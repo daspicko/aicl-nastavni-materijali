@@ -4,18 +4,18 @@ root: content/index
 
 chapters:
   - file: content/01_python/index
-  - file: content/02_data_science/index
+  - file: content/02_podatkovna_znanost/index
     sections:
-      - file: content/02_data_science/2025-06-17/01predavanje
-      - file: content/02_data_science/2025-06-17/02osiguranici
-      - file: content/02_data_science/2025-06-17/03bikebuyers
-  - file: content/03_machine_learning/index
+      - file: content/02_podatkovna_znanost/2025-06-17/01predavanje
+      - file: content/02_podatkovna_znanost/2025-06-17/02osiguranici
+      - file: content/02_podatkovna_znanost/2025-06-17/03bikebuyers
+  - file: content/03_strojno_ucenje/index
     sections:
-      - file: content/03_machine_learning/2025-09-01/index
+      - file: content/03_strojno_ucenje/2025-09-01/index
         sections:
-          - file: content/03_machine_learning/2025-09-01/01_Vjerojatnost
-          - file: content/03_machine_learning/2025-09-01/02_Jednostavni_i_slozeni_dogadaji
-          - file: content/03_machine_learning/2025-09-01/03_Distribucije
-          - file: content/03_machine_learning/2025-09-01/04_Ponderiranje
-          - file: content/03_machine_learning/2025-09-01/05_Kockica
-          - file: content/03_machine_learning/2025-09-01/06_Suma_kvadrata
+          - file: content/03_strojno_ucenje/2025-09-01/01_Vjerojatnost
+          - file: content/03_strojno_ucenje/2025-09-01/02_Jednostavni_i_slozeni_dogadaji
+          - file: content/03_strojno_ucenje/2025-09-01/03_Distribucije
+          - file: content/03_strojno_ucenje/2025-09-01/04_Ponderiranje
+          - file: content/03_strojno_ucenje/2025-09-01/05_Kockica
+          - file: content/03_strojno_ucenje/2025-09-01/06_Suma_kvadrata

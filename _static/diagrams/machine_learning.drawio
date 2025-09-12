@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.0">
+  <diagram name="Page-1" id="u_5XUCYWFtzpEycsu6BZ">
+    <mxGraphModel dx="983" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8qccF_PskCoC5mARNP6W-1" value="Machine learning" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="20" y="60" width="810" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8qccF_PskCoC5mARNP6W-7" value="Unsupervised learning" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="130" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8qccF_PskCoC5mARNP6W-10" value="Customer segmentation&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Targeted marketing&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Recommendation systems&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="20" y="220" width="130" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="8qccF_PskCoC5mARNP6W-11" value="Big data visualization&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Meaningful compression&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Structure discovery&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Feature elicitation&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="150" y="220" width="130" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="8qccF_PskCoC5mARNP6W-12" value="Clustering" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="190" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8qccF_PskCoC5mARNP6W-13" value="Dimensional reduction" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="190" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8qccF_PskCoC5mARNP6W-15" value="Supervised learning" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="130" width="265" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8qccF_PskCoC5mARNP6W-16" value="Fraud detection&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Image classification&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Customer retention&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Diagnostics&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="290" y="220" width="135" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="8qccF_PskCoC5mARNP6W-17" value="Forecasting&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Predictions&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Process optimization&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;New insights&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="425" y="220" width="130" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="8qccF_PskCoC5mARNP6W-18" value="Classification" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="190" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8qccF_PskCoC5mARNP6W-19" value="Regression" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="190" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8qccF_PskCoC5mARNP6W-20" value="Real-time decisions&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Game AI&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Learning tasks&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Skill acquisition&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Robot navigation&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;" vertex="1" parent="1">
+          <mxGeometry x="570" y="190" width="260" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="8qccF_PskCoC5mARNP6W-21" value="Reinforced learning" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="130" width="260" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
