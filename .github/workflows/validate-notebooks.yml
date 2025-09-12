@@ -13,12 +13,11 @@ on:
       - content/**
       - requirements.txt
 
-env:
-  BASE_URL="/ai-centar-lipik"
-
 jobs:
   validate-notebooks:
     runs-on: ubuntu-latest
+    env:
+      BASE_URL: /ai-centar-lipik
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5

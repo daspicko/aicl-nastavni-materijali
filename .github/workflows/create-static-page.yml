@@ -16,12 +16,11 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-env:
-  BASE_URL="/ai-centar-lipik"
-
 jobs:
   export-notebooks-and-build-static-pages:
     runs-on: ubuntu-latest
+    env:
+      BASE_URL: /ai-centar-lipik
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
