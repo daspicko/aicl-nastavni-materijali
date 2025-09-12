@@ -1,2 +1,2 @@
-# Data science
+# Podatkovna znanost
 Data science is an interdisciplinary field that uses scientific methods, processes, algorithms, and systems to extract knowledge and insights from structured and unstructured data. It combines aspects of statistics, computer science, and domain expertise to analyze and interpret complex data sets.

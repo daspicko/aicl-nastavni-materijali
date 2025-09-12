@@ -19,6 +19,8 @@ concurrency:
 jobs:
   export-notebooks-and-build-static-pages:
     runs-on: ubuntu-latest
+    env:
+      BASE_URL="/ai-centar-lipik"
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
@@ -36,7 +38,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: 'dist/'
+          path: '_build/html/'
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4

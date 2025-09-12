@@ -1,5 +1,5 @@
-# Machine learning
-Machine learning is a subset of artificial intelligence (AI) that focuses on the development of algorithms and statistical models that enable computers to perform specific tasks without explicit instructions. Instead, these systems learn from data and improve their performance over time through experience.
+# Strojno učenje
+Strojno učenje je podskup umjetne inteligencije (AI) koji se usredotočuje na razvoj algoritama i statističkih modela koji omogućuju računalima obavljanje specifičnih zadataka bez eksplicitnih uputa. Umjesto toga, ti sustavi uče iz podataka i poboljšavaju svoje performanse tijekom vremena kroz iskustvo.
 
 ![Machine learning](../../_static/images/machine_learning.drawio.png)
 

@@ -25,4 +25,4 @@ jobs:
           node-version: 22
 
       - name: Validate content
-        run: npm run validate
+        run: npm run build
