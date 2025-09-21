@@ -33,3 +33,15 @@ chapters:
           - file: content/03_strojno_ucenje/035_vjezbe/01c_vjezba.ipynb
           - file: content/03_strojno_ucenje/035_vjezbe/01d_vjezba.ipynb
           - file: content/03_strojno_ucenje/035_vjezbe/01e_vjezba.ipynb
+      - file: content/03_strojno_ucenje/036_klasifikatori/index.md
+        sections:
+          - file: content/03_strojno_ucenje/036_klasifikatori/0361_dummy.ipynb
+          - file: content/03_strojno_ucenje/036_klasifikatori/0362_metrike.ipynb
+          - file: content/03_strojno_ucenje/036_klasifikatori/0363_roc.ipynb
+          - file: content/03_strojno_ucenje/036_klasifikatori/0364_vjezba_6a.ipynb
+      - file: content/03_strojno_ucenje/037_ponavljanje/index.md
+        sections:
+          - file: content/03_strojno_ucenje/037_ponavljanje/0371_matrica_zbunjenosti_cipele.ipynb
+          - file: content/03_strojno_ucenje/037_ponavljanje/0371_matrica_zbunjenosti_iris.ipynb
+          - file: content/03_strojno_ucenje/037_ponavljanje/0373_naive_bayes.ipynb
+          - file: content/03_strojno_ucenje/037_ponavljanje/0374_vjezba_6b.ipynb
