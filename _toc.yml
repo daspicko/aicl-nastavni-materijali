@@ -74,3 +74,7 @@ chapters:
       - file: content/03_strojno_ucenje/0320_nonsupervised_learning/index.md
         sections:
           - file: content/03_strojno_ucenje/0320_nonsupervised_learning/0320_zadaca_16a.ipynb
+
+      - file: content/03_strojno_ucenje/0321_zavrsni_zadatak/index.md
+        sections:
+          - file: content/03_strojno_ucenje/0321_zavrsni_zadatak/0321_zavrsni_zadatak.ipynb

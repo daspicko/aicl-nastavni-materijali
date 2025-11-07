@@ -5,6 +5,6 @@
   "scripts": {
     "start": "jupyter book start",
     "build": "jupyter book build --execute --html",
-    "local:deploy": "npm run build && sudo rm -rf /var/www/html/ai-centar-lipik/* && sudo cp -r _build/html/* /var/www/html/ai-centar-lipik"
+    "local:deploy": "export BASE_URL=/ai-centar-lipik && npm run build && sudo rm -rf /var/www/html/ai-centar-lipik/* && sudo cp -r _build/html/* /var/www/html/ai-centar-lipik"
   }
 }
