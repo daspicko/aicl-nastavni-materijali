@@ -11,37 +11,70 @@ chapters:
   - file: content/02_podatkovna_znanost/index.md
   - file: content/03_strojno_ucenje/index.md
     sections:
-      - file: content/03_strojno_ucenje/031_matematika/index.md
-        sections:
-          - file: content/03_strojno_ucenje/031_matematika/0311_Vjerojatnost.ipynb
-          - file: content/03_strojno_ucenje/031_matematika/0312_Jednostavni_i_slozeni_dogadaji.ipynb
-          - file: content/03_strojno_ucenje/031_matematika/0313_Distribucije.ipynb
-          - file: content/03_strojno_ucenje/031_matematika/0314_Ponderiranje.ipynb
-          - file: content/03_strojno_ucenje/031_matematika/0315_Kockica.ipynb
-          - file: content/03_strojno_ucenje/031_matematika/0316_Suma_kvadrata.ipynb
-          - file: content/03_strojno_ucenje/031_matematika/0317_Koncert.ipynb
-          - file: content/03_strojno_ucenje/031_matematika/0318_Nelinearnost.ipynb
-          - file: content/03_strojno_ucenje/031_matematika/0319_vjezba_graf_jednadzbe_4tog_stupnja.ipynb
-      - file: content/03_strojno_ucenje/032_klasifikacija/index.md
-      - file: content/03_strojno_ucenje/033_regresija/index.md
-      - file: content/03_strojno_ucenje/034_evaluacija/index.md
       - file: content/03_strojno_ucenje/035_vjezbe/index.md
         sections:
-          - file: content/03_strojno_ucenje/035_vjezbe/01_primjer.ipynb
           - file: content/03_strojno_ucenje/035_vjezbe/01a_vjezba.ipynb
           - file: content/03_strojno_ucenje/035_vjezbe/01b_vjezba.ipynb
           - file: content/03_strojno_ucenje/035_vjezbe/01c_vjezba.ipynb
           - file: content/03_strojno_ucenje/035_vjezbe/01d_vjezba.ipynb
           - file: content/03_strojno_ucenje/035_vjezbe/01e_vjezba.ipynb
+
       - file: content/03_strojno_ucenje/036_klasifikatori/index.md
         sections:
-          - file: content/03_strojno_ucenje/036_klasifikatori/0361_dummy.ipynb
-          - file: content/03_strojno_ucenje/036_klasifikatori/0362_metrike.ipynb
-          - file: content/03_strojno_ucenje/036_klasifikatori/0363_roc.ipynb
           - file: content/03_strojno_ucenje/036_klasifikatori/0364_vjezba_6a.ipynb
-      - file: content/03_strojno_ucenje/037_ponavljanje/index.md
-        sections:
-          - file: content/03_strojno_ucenje/037_ponavljanje/0371_matrica_zbunjenosti_cipele.ipynb
-          - file: content/03_strojno_ucenje/037_ponavljanje/0371_matrica_zbunjenosti_iris.ipynb
-          - file: content/03_strojno_ucenje/037_ponavljanje/0373_naive_bayes.ipynb
           - file: content/03_strojno_ucenje/037_ponavljanje/0374_vjezba_6b.ipynb
+
+      - file: content/03_strojno_ucenje/039_stabla_odlucivanja/index.md
+        sections:
+          - file: content/03_strojno_ucenje/039_stabla_odlucivanja/0399_vjezba_08a.ipynb
+
+      - file: content/03_strojno_ucenje/0310_logisticka_regresija/index.md
+        sections:
+          - file: content/03_strojno_ucenje/0310_logisticka_regresija/0315_digits_zadaca_08b.ipynb
+
+      - file: content/03_strojno_ucenje/0311_vjezbe/index.md
+        sections:
+          - file: content/03_strojno_ucenje/0311_vjezbe/03111_vjezba_02a.ipynb
+          - file: content/03_strojno_ucenje/0311_vjezbe/03111_vjezba_02b.ipynb
+          - file: content/03_strojno_ucenje/0311_vjezbe/03111_vjezba_02c.ipynb
+          - file: content/03_strojno_ucenje/0311_vjezbe/03111_vjezba_02d.ipynb
+          - file: content/03_strojno_ucenje/0311_vjezbe/03111_vjezba_02e.ipynb
+
+      - file: content/03_strojno_ucenje/0313_rad_sa_features/index.md
+        sections:
+          - file: content/03_strojno_ucenje/0313_rad_sa_features/0313_zadaca_10.ipynb
+
+      - file: content/03_strojno_ucenje/0314_hiperparametri/index.md
+        sections:
+          - file: content/03_strojno_ucenje/0314_hiperparametri/03147_zadaca_11.ipynb
+
+      - file: content/03_strojno_ucenje/0315_kombiniranje_modela/index.md
+        sections:
+          - file: content/03_strojno_ucenje/0315_kombiniranje_modela/03157_zadaca_12.ipynb
+
+      - file: content/03_strojno_ucenje/0316/index.md
+        sections:
+          - file: content/03_strojno_ucenje/0316/03167_zadaca_13.ipynb
+
+      - file: content/03_strojno_ucenje/0317_vjezbe_3/index.md
+        sections:
+          - file: content/03_strojno_ucenje/0317_vjezbe_3/03171_vjezba03a.ipynb
+          - file: content/03_strojno_ucenje/0317_vjezbe_3/03171_vjezba03b.ipynb
+          - file: content/03_strojno_ucenje/0317_vjezbe_3/03171_vjezba03c.ipynb
+          - file: content/03_strojno_ucenje/0317_vjezbe_3/03171_vjezba03d.ipynb
+
+      - file: content/03_strojno_ucenje/0318_explainable_ai/index.md
+        sections:
+          - file: content/03_strojno_ucenje/0318_explainable_ai/0318_zadaca_14a.ipynb
+
+      - file: content/03_strojno_ucenje/0319_nonsupervised_learning/index.md
+        sections:
+          - file: content/03_strojno_ucenje/0319_nonsupervised_learning/0319_zadaca_15a.ipynb
+
+      - file: content/03_strojno_ucenje/0320_nonsupervised_learning/index.md
+        sections:
+          - file: content/03_strojno_ucenje/0320_nonsupervised_learning/0320_zadaca_16a.ipynb
+
+      - file: content/03_strojno_ucenje/0321_zavrsni_zadatak/index.md
+        sections:
+          - file: content/03_strojno_ucenje/0321_zavrsni_zadatak/0321_zavrsni_zadatak.ipynb

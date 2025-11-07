@@ -4,7 +4,6 @@ project:
   id: 3a1ee051-6ddb-4e54-8834-bb53b9c9ea8e
   title: AI Centar Lipik
   description: Nastavni materijali za AI Centar Lipik
-  root: ./content
   keywords: [python, ai, machine learning, data science, jupyter, jupyter book]
   # authors: []
   github: https://github.com/daspicko/ai-centar-lipik
