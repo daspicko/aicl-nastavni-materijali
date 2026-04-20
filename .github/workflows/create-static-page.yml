@@ -1,11 +1,6 @@
 name: Create Static Pages
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths-ignore:
-      - .github/**
 
 permissions:
   contents: read
